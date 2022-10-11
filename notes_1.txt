@@ -1,0 +1,85 @@
+First Program in C#
+- Namespace Declaration
+- Class Declaration
+- Main Method
+- Logic...
+
+Namespace
+- used to organize classes
+
+Why main is static ?
+- static methods or variables always get loaded with class
+- static members are initialized only once
+
+Why main is void ?
+- because main returns nothing
+
+What are String[] args ?
+- used for command line arguments
+
+What is System ?
+- Namespace 
+
+Working with Namespaces
+
+Variables
+
+Data Types - type of data
+- Value Data Types
+- Reference Data Types
+- Pointer Data Types
+
+Value Data Types
+- Numeric
+    - Integer
+        - sbyte - signed byte       - 1 byte (8 bit)
+        - byte  - unsigned byte     - 1 byte (8 bit)
+        - short - signed            - 2 byte (16 bit)
+        - ushort - unsigned         - 2 byte (16 bit)
+        - int   - signed            - 4 bytes (32 bit)
+        - uint  - unsigned          - 4 bytes (32 bit)
+        - long  - signed            - 8 bytes (64 bit)
+        - ulong - unsigned          - 8 bytes (64 bit)
+    - Floating Point
+        - float     - 4 bytes
+        - double    - 8 bytes
+        - decimal   - 16 bytes
+
+- Character
+    - char - 2 byte - 16 bit
+
+- Boolean
+    - True / False
+
+Reference Data Types
+- String
+- Object
+
+Pointer Data Types
+- contains the memory address of any variable
+
+
+Operators
+- Arithmetic Operator
+    +,-,/,*,%
+- Assignment Operator
+    =, +=, -=, /=, *=, %=, <<=, >>=, &=, ^=, |=
+    a = 10
+    a += 5  -> a = a + 5
+- Relational Operator
+    ==, !=, <, >, <=, >=
+- Logical Operator
+    &&, ||, !
+- Bitwise Operator
+    &, |, ^, <<, >>
+- Conditional Operator / Ternary Operator
+    condition ? expr_1 : expr_2;
+
+Unary Operator
+++, --
+- post inc / pre inc
+- post dec / pre dec
+
+Input/Output
+Type Casting
+
